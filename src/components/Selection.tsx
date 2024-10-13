@@ -20,9 +20,11 @@ export function Selection({ setHistory, strategyManager }: ISelectionProps) {
                 gap={4}
                 flexGrow={1}
                 justifyContent="center"
-                alignContent="center"
+                alignContent="top"
                 flexWrap={"wrap"}
                 px={6}
+                overflowY="auto"
+                mb={6}
             >
                 {strategyManager.locations.map((location, key) => (
                     <Button
