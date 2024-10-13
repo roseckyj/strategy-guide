@@ -18,7 +18,6 @@ export function Selection({ setHistory, strategyManager }: ISelectionProps) {
             </Text>
             <Flex
                 gap={4}
-                flexGrow={1}
                 justifyContent="center"
                 alignContent="top"
                 flexWrap={"wrap"}
