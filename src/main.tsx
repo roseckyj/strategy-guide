@@ -6,7 +6,7 @@ import {
     extendTheme,
 } from "@chakra-ui/react";
 import { createRoot } from "react-dom/client";
-import { App } from "./App.tsx";
+import { App } from "./components/App.tsx";
 
 const theme = extendTheme({
     config: {
